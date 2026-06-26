@@ -2,7 +2,7 @@ koneksi modem ke server
 
 1. siapkan alat alat
 
-   a. modem
+   a. modem 
 
    b. spliter
 
@@ -48,8 +48,20 @@ koneksi modem ke server
 
                 ✅SSID1
 
-   jika sudah menyeting semua lalu klik create
+  a. jika sudah menyeting semua lalu klik create
 
-   masih pada menu network -> WLAN -> Seting pada Aauthenticatin Type:Open System -> submit 
-   
-   
+  b. masih pada menu network -> WLAN -> Seting pada Aauthenticatin Type:Open System -> submit
+
+  c. ke menu dasbord pilih menu status ->interface network 
+
+   pastikan ip address dan DNS sudah ada ip dan conneted
+  
+  d.buka aplikasi speestest ->mulai -> akan mucul redaman dan mbps nya bererti seting modem telah berhasil
+
+5. Buka aplikasi Winbox, pada halaman login winbox masukkan IP yang terhubung ke port ONT (contoh: 103.134.220.123:12500) -> connect
+
+6. pilih menu ppp -> active connections -> ketik acs-pkl pada kolom pencarian -> kilik 2 kali -> copy paste IP Addnya di browser ->enter
+
+7. Setelah masuk ke halaman login setting modem masukkan username dan passwordnya -> login
+
+8. Pilih menu administration -> TR09 
