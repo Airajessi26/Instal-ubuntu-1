@@ -21,4 +21,4 @@
 ●menampilkan informasi versi Docker yang terpasang
  •docker version
 ●menguji apakah Docker sudah terinstal dan berfungsi dengan baik.
- •docker run hello-world
+ •docker run hello-world 
