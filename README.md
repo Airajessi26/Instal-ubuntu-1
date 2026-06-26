@@ -1,13 +1,22 @@
 ●Login ke Ubuntu
+
  •masukan username
+ 
  •masukan password
+ 
  masuk kesisitim ubuntu
+ 
 ●Memperbarui daftar paket
+
  •sudo apt update
+ 
 ●menampilkan daftar paket yang memiliki pembaruan (update) dan siap di-upgrade.
+
  •sudo apt list --upgradable
+ 
 ●memperbarui paket-paket yang sudah terinstal di Ubuntu, kemudian mengecek apakah masih ada paket yang belum diperbarui.
  •sudo apt upgrade && sudo apt upgradable
+ 
  • lalu y untuk yes
 ●membersihkan instalasi Docker yang lama atau paket lain yang bisa menyebabkan konflik,
  •for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc;
