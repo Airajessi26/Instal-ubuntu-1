@@ -1,5 +1,4 @@
 ●Login ke Ubuntu
-
  •masukan username
  
  •masukan password
