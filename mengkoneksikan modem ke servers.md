@@ -64,4 +64,4 @@ koneksi modem ke server
 
 7. Setelah masuk ke halaman login setting modem masukkan username dan passwordnya -> login
 
-8. Pilih menu administration -> TR09 
+8. Pilih menu administration -> TR069 
