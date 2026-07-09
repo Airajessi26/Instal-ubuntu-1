@@ -150,7 +150,7 @@ jika menginsta genieacs sudah berhasil selanjutnya menambahkan parameter
 
 4. selanjut nya masih pada menu admin ke Edit device page
 
-  🖋️Agar modem kita dapat           agar dapat memuculkan keterangan pada menu parameter, ke menu admin -> config ->edit device page
+  🖋️Agar modem kita dapat agar dapat memuculkan keterangan pada menu parameter, ke menu admin -> config ->edit device page
    
   🖋️cari teks seperti bawah ini, lalu pada bagian bawah tek tersebut tambahkan virtual parameters yang sudah di buat tadi
 
@@ -216,3 +216,15 @@ ini tutor langkah langkahnya agar muncul
     f. Jika pada sebelah kanan belum muncul username modem tersebut, klik icon refreash > commit. Tunggu hingga commited.
     
     g. Setelah commited, kembali ke halaman devices awal, lihat modem yang sudah di summon dan di refreash tadi. Akan muncul Usernamenya.
+    
+5. selanjutnya cara agar summon nya bisa di sumon tanpa masuk ke menu modem
+   
+🖋️menambah secrp ke dalam cinfig > edit index page 
+
+  - label: "'Action'"
+  type: "'summon-button'"
+  parameters:
+    - InternetGatewayDevice.DeviceInfo.ModelName
+    - InternetGatewayDevice.DeviceInfo.SoftwareVersion
+    - InternetGatewayDevice.ManagementServer.ConnectionRequestURL
+    - InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ExternalIPAddress
